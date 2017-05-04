@@ -14,9 +14,11 @@ javascript:
       switch (x) { 
         case "Because I am": 
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
-          break; 
+          
 	  var a = new Audio("https://www.youtube.com/watch?v=L0vsJhARsgU")
 	  a.play();
+		      
+		      break;
         case "I don't know": 
           javascript:alert('Then why are you here?');
           break; 
