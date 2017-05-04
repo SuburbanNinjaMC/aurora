@@ -24,8 +24,9 @@ javascript:
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
           var a = "You suck balls";
 	  for (i == 0; i < 20; i++) {
-		  var b = window.open("", "b", "width:100px");
+		  javascript: var b = window.open("", "b", "width:100px");
 		  b.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
+		  window.open("", _blank);
 	  }   
 	  break;
         case "I don't know": 
