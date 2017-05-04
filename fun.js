@@ -14,11 +14,12 @@ javascript:
       switch (x) { 
         case "Because I am": 
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
-          
-	  var a = new Audio("https://www.youtube.com/watch?v=L0vsJhARsgU");
-	  a.play();
-		      
-		      break;
+          var a = "You suck balls";
+	  for (int i == 0; i < 20; i++) {
+		  var z = window.open("", "z", "width:100px");
+		  z.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
+	  }   
+		     break;
         case "I don't know": 
           javascript:alert('Then why are you here?');
           break; 
