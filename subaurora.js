@@ -18,7 +18,7 @@ document.onkeypress = function(e) {
          alert("People can be such imbeciles, you know?");
          alert("I know you do.");
          break;
-              }
+     }
   }
 }
 
