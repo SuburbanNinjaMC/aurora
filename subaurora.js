@@ -25,9 +25,7 @@ document.onkeypress = function(e) {
        case "take me to your leader":
          javascript: window.open("http://marsubia.x10.mx/");
          break;
-       case "prankd":
-         javascript: window.open("
-     }
+              }
   }
 }
 
