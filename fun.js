@@ -15,7 +15,7 @@ javascript:
         case "Because I am": 
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
           
-	  var a = new Audio("https://www.youtube.com/watch?v=L0vsJhARsgU")
+	  var a = new Audio("https://www.youtube.com/watch?v=L0vsJhARsgU");
 	  a.play();
 		      
 		      break;
