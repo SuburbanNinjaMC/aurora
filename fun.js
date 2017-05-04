@@ -5,8 +5,16 @@ javascript:
       javascript: 
       alert("Yay! You have a good spirit.");
       var y = prompt("So what now? Want me to type something?");
-      var z = window.open("", "z", "width:100px");
-      z.document.write("<body contenteditable='true'><title>Textbox</title>" + y + "</body>");
+      switch (y) {
+	      case "yes":
+		      javascript: var y = prompt("OK! Type something!");
+     		      var z = window.open("", "z", "width:100px");
+     		      z.document.write("<body contenteditable='true'><title>Textbox</title>" + y + "</body>");
+		       break;
+	      case "no": 
+		      javascript: alert("ok.");
+		      break;
+	      }   
       break;
     case "no":
       javascript:
@@ -15,11 +23,11 @@ javascript:
         case "Because I am": 
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
           var a = "You suck balls";
-	  for (int i == 0; i < 20; i++) {
-		  var z = window.open("", "z", "width:100px");
-		  z.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
+	  for (i == 0; i < 20; i++) {
+		  var b = window.open("", "b", "width:100px");
+		  b.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
 	  }   
-		     break;
+	  break;
         case "I don't know": 
           javascript:alert('Then why are you here?');
           break; 
