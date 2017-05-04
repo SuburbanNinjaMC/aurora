@@ -1,7 +1,7 @@
 javascript:
 alert("Sub Aurora v1. Thank you for clicking.");
 alert("My name is SuburbanNinjaMC, and I created Sub Aurora.");
-alert("Press 'j' to begin.");
+alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora v1 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
