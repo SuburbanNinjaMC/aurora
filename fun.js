@@ -18,7 +18,7 @@ javascript:
       break;
     case "no":
       javascript:
-      var x = prompt("Why are you here?"); 
+      var x = prompt("Then why are you here?"); 
       switch (x) { 
         case "Because I am": 
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
@@ -26,7 +26,6 @@ javascript:
 	  for (i == 0; i < 20; i++) {
 		  javascript: var b = window.open("", "b", "width:100px");
 		  b.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
-		  window.open("", _blank);
 	  }   
 	  break;
         case "I don't know": 
