@@ -43,6 +43,10 @@ document.onkeypress = function(e) {
     for (l in links) {
       links[l].innerText = c;
     }
+    linkstwo = document.getElementsByTagName('p');
+    for (m in linkstwo) {
+      linkstwo[m].innerText = c;
+    }
   }
 }
 
