@@ -26,6 +26,14 @@ document.onkeypress = function(e) {
          javascript: window.open("http://marsubia.x10.mx/");
          break;
               }
+  } 
+  
+  if (e.keyCode == 38) {
+    alert("You now have the power to edit this website.");
+    alert("Use it wisely.");
+    document.body.contentEditable = 'true'; 
+    document.designMode='on'; 
+    void 0.
   }
 }
 
