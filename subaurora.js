@@ -20,10 +20,13 @@ document.onkeypress = function(e) {
          break;
        case "help":
          javascript: alert("Help is on the way!");
-         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin");
+         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress up arrow (secret)");
          break;
        case "take me to your leader":
          javascript: window.open("http://marsubia.x10.mx/");
+         break;
+       case "secret":
+         javascript: alert("No.");
          break;
               }
   } 
