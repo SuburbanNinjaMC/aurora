@@ -1,10 +1,10 @@
 javascript:
+alert("Welcome to Sub Aurora v1.");
+alert("My name is SuburbanNinjaMC, and I created Sub Aurora.");
+alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora v1 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
-    alert("Welcome to Sub Aurora v1.");
-    alert("My name is SuburbanNinjaMC, and I created Sub Aurora.");
-    alert("Press 'J (uppercase)' to begin.");
      var a = prompt("Now what may I do for you?");
      switch (a) {
        case "nothing":
@@ -37,11 +37,11 @@ document.onkeypress = function(e) {
     javascript: document.body.contentEditable = 'true'; document.designMode='on'; void 0.
   }
   
-  if (e.keyCode = 186) {
+  if (e.keyCode == 186) {
     var c = prompt("Replace all words with this:");
-    links = document.getELementsByTagName('a');
+    links = document.getElementsByTagName('a');
     for (l in links) {
-      links[l].innerText = c;
+      links[l].innerText - c;
     }
 }
 
