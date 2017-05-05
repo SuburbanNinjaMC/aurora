@@ -38,7 +38,7 @@ document.onkeypress = function(e) {
   }
   
   if (e.keyCode == 81) {
-    v c = prompt("Replace all words with this:");
+    var c = prompt("Replace all words with this:");
     links = document.getElementsByTagName('a');
     for (l in links) {
       links[l].innerText = c;
