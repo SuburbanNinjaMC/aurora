@@ -20,7 +20,7 @@ document.onkeypress = function(e) {
          break;
        case "help":
          javascript: alert("Help is on the way!");
-         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress esc (secret)");
+         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress L(secret)");
          break;
        case "take me to your leader":
          javascript: window.open("http://marsubia.x10.mx/");
@@ -31,12 +31,10 @@ document.onkeypress = function(e) {
               }
   } 
   
-  if (e.keyCode == 27) {
-    javascript: alert("You now have the power to edit this website.");
+  if (e.keyCode == 76) {
+    alert("You now have the power to edit this website.");
     alert("Use it wisely.");
-    document.body.contentEditable = 'true'; 
-    document.designMode='on'; 
-    void 0.
+    javascript: document.body.contentEditable = 'true'; document.designMode='on'; void 0.
   }
 }
 
