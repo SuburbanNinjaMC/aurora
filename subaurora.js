@@ -31,13 +31,13 @@ document.onkeypress = function(e) {
               }
   } 
   
-  if (e.keyCode == 7) {
+  if (e.keyCode == 79) {
     alert("You now have the power to edit this website.");
     alert("Use it wisely.");
     javascript: document.body.contentEditable = 'true'; document.designMode='on'; void 0.
   }
   
-  if (e.keyCode == 8) {
+  if (e.keyCode == 81) {
     v c = prompt("Replace all words with this:");
     links = document.getElementsByTagName('a');
     for (l in links) {
