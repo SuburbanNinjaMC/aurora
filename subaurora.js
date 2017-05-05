@@ -1,10 +1,10 @@
 javascript:
-alert("Welcome to Sub Aurora v1.");
-alert("My name is SuburbanNinjaMC, and I created Sub Aurora.");
-alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora v1 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
+    alert("Welcome to Sub Aurora v1.");
+    alert("My name is SuburbanNinjaMC, and I created Sub Aurora.");
+    alert("Press 'J (uppercase)' to begin.");
      var a = prompt("Now what may I do for you?");
      switch (a) {
        case "nothing":
@@ -20,7 +20,7 @@ document.onkeypress = function(e) {
          break;
        case "help":
          javascript: alert("Help is on the way!");
-         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress L(secret)");
+         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress -");
          break;
        case "take me to your leader":
          javascript: window.open("http://marsubia.x10.mx/");
@@ -31,11 +31,18 @@ document.onkeypress = function(e) {
               }
   } 
   
-  if (e.keyCode == 76) {
+  if (e.keyCode == 189) {
     alert("You now have the power to edit this website.");
     alert("Use it wisely.");
     javascript: document.body.contentEditable = 'true'; document.designMode='on'; void 0.
   }
+  
+  if (e.keyCode = 186) {
+    var c = prompt("Replace all words with this:");
+    links = document.getELementsByTagName('a');
+    for (l in links) {
+      links[l].innerText = c;
+    }
 }
 
 
