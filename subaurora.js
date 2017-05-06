@@ -29,10 +29,19 @@ document.onkeypress = function(e) {
          javascript: alert("No.");
          break;
        case "crash":
-         javascript: txt = "a";
-         while (1) {
-           txt = txt += "a";
-         }
+         javascript: 
+         var d = prompt("Are you sure? (y/n)");
+         switch (d) {
+           case "y":
+             javascript: txt = "a";
+             while (1) {
+               txt = txt += "a";
+             }
+             break;
+           case "n":
+             javascript: alert("Ok. But be careful.");
+             break;
+                  }
          break;
      }
   } 
@@ -52,6 +61,12 @@ document.onkeypress = function(e) {
     linkstwo = document.getElementsByTagName('p');
     for (m in linkstwo) {
       linkstwo[m].innerText = c;
+    }
+  }
+  
+  if (e.keyCode == 84) {
+    for (var i = 0; i < 5; i++) {
+      window.open("http://marsubia.x10.mx", _blank);
     }
   }
 }
