@@ -66,6 +66,10 @@ document.onkeypress = function(e) {
     for (n in linksthree) {
       linksthree[n].innerText = c;
     }
+    links = document.getElementsByTagName('h1');
+    for (o in links) {
+      links[o].innerText = c;
+    }
   }
   
   if (e.keyCode == 84) {
