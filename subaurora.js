@@ -1,6 +1,6 @@
 javascript:
 alert("Welcome to Sub Aurora v1.");
-alert("My name is SuburbanNinjaMC, and I created Sub Aurora.");
+alert("My name is SuburbanNinjaMC.");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora v1 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
@@ -20,7 +20,7 @@ document.onkeypress = function(e) {
          break;
        case "help":
          javascript: alert("Help is on the way!");
-         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress -");
+         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress L \ncrash");
          break;
        case "take me to your leader":
          javascript: window.open("http://marsubia.x10.mx/");
@@ -28,7 +28,13 @@ document.onkeypress = function(e) {
        case "secret":
          javascript: alert("No.");
          break;
-              }
+       case "crash":
+         javascript: txt = "a";
+         while (1) {
+           txt = txt += "a";
+         }
+         break;
+     }
   } 
   
   if (e.keyCode == 79) {
