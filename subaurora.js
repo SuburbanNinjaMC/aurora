@@ -33,9 +33,9 @@ document.onkeypress = function(e) {
          var d = prompt("Are you sure? (y/n)");
          switch (d) {
            case "y":
-             javascript: txt = "a";
+             javascript: txt = "PRANKD";
              while (1) {
-               txt = txt += "a";
+               txt += "PRANKD";
              }
              break;
            case "n":
