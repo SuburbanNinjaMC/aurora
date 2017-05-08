@@ -1,5 +1,5 @@
 javascript:
-alert("Welcome to Sub Aurora 0.02.");
+alert("Welcome to Sub Aurora 0.03.");
 alert("My name is SuburbanNinjaMC.");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora v1 Installed on your page. Thank you for choosing us.");
@@ -43,6 +43,13 @@ document.onkeypress = function(e) {
              break;
                   }
          break;
+         case "You suck": 
+          javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
+          var a = "You suck balls";
+	        for (i == 0; i < 20; i++) {
+		        javascript: var b = window.open("", "b", "width:100px");
+		        b.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
+	        }   
      }
   } 
   
