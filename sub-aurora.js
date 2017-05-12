@@ -1,8 +1,8 @@
 javascript:
-alert("Welcome to Sub Aurora 0.03.");
+alert("Welcome to Sub Aurora 0.05.");
 alert("My name is SuburbanNinjaMC.");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora v1 Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.05 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
@@ -14,7 +14,7 @@ document.onkeypress = function(e) {
          javascript: window.open("http://dictionary.com");
          break;
        case "friendly chat":
-         javascript: alert("Oh I'm fine thank you. This one lady decided to go ham when I was driving to the store.");
+         javascript: alert("Oh I'm fine thank you. This one lady decided to turn up the music so high it broke my window when I was driving to the store.");
          alert("People can be such imbeciles, you know?");
          alert("I know you do.");
          break;
