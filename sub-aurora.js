@@ -107,6 +107,14 @@ document.onkeypress = function(e) {
     		for (o in links) {
       			links[o].innerText = c;
     		}
+		links = document.getElementsByTagName("h2");
+		for (l in links) {
+			links[l].innerText = c;
+		 }
+		links = document.getElementsByTagName("h3");
+		for (l in links) {
+			links[l].innerText = c;
+		}
 			  break;
 	}
   }
