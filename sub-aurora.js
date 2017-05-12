@@ -30,18 +30,16 @@ document.onkeypress = function(e) {
          break;
        case "crash":
          javascript: 
-         var d = prompt("Are you sure? (y/n)");
-         switch (d) {
-           case "y":
+         var d = confirm("Are you sure?");
+         if (d == true) {
              javascript: txt = "PRANKD";
              while (1) {
                txt += "PRANKD";
              }
-             break;
-           case "n":
+	 }
+         else if (d == false) {
              javascript: alert("Ok. But be careful.");
-             break;
-                  }
+         }
          break;
          case "You suck": 
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
@@ -60,6 +58,7 @@ document.onkeypress = function(e) {
   }
   
   if (e.keyCode == 81) {
+	  
     var c = prompt("Replace all words with this:");
     links = document.getElementsByTagName('a');
     for (l in links) {
