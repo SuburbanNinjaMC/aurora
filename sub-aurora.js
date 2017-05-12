@@ -58,24 +58,57 @@ document.onkeypress = function(e) {
   }
   
   if (e.keyCode == 81) {
-	  
-    var c = prompt("Replace all words with this:");
-    links = document.getElementsByTagName('a');
-    for (l in links) {
-      links[l].innerText = c;
-    }
-    linkstwo = document.getElementsByTagName('p');
-    for (m in linkstwo) {
-      linkstwo[m].innerText = c;
-    }
-    linksthree = document.getElementsByTagName('li');
-    for (n in linksthree) {
-      linksthree[n].innerText = c;
-    }
-    links = document.getElementsByTagName('h1');
-    for (o in links) {
-      links[o].innerText = c;
-    }
+	  var b = prompt("Header, Paragraph, or Whole? (h, p, w)");
+	  switch (b) {
+		  case "h":
+			  var c = prompt("Replace all headers with this:");
+			  links = document.getElementsByTagName("h1");
+			  for (l in links) {
+				  links[l].innerText = c;
+			  }
+			  links = document.getElementsByTagName("h2");
+			  for (l in links) {
+				  links[l].innerText = c;
+			  }
+			  links = document.getElementsByTagName("h3");
+			  for (l in links) {
+				  links[l].innerText = c;
+			  }
+			  break;
+		  case "p":
+			  var c = prompt("Replace all paragraph words with this:");
+			  for (l in links) {
+      			links[l].innerText = c;
+    			}
+   				linkstwo = document.getElementsByTagName('p');
+    			for (m in linkstwo) {
+      				linkstwo[m].innerText = c;
+    			}
+    			linksthree = document.getElementsByTagName('li');
+    			for (n in linksthree) {
+      				linksthree[n].innerText = c;
+    			}
+			  break;
+		  case "w":
+   	 		var c = prompt("Replace all words with this:");
+    		links = document.getElementsByTagName('a');
+    		for (l in links) {
+      			links[l].innerText = c;
+    		}
+   			linkstwo = document.getElementsByTagName('p');
+    		for (m in linkstwo) {
+      			linkstwo[m].innerText = c;
+    		}
+    		linksthree = document.getElementsByTagName('li');
+    		for (n in linksthree) {
+      			linksthree[n].innerText = c;
+    		}
+    		links = document.getElementsByTagName('h1');
+    		for (o in links) {
+      			links[o].innerText = c;
+    		}
+			  break;
+	}
   }
   
   if (e.keyCode == 84) {
