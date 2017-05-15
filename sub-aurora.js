@@ -1,5 +1,5 @@
 javascript:
-alert("Welcome to Sub Aurora 0.05.");
+alert("Welcome to Sub Aurora 0.06.");
 alert("My name is SuburbanNinjaMC.");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.05 Installed on your page. Thank you for choosing us.");
