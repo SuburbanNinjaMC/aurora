@@ -14,7 +14,7 @@ document.onkeypress = function(e) {
          javascript: window.open("http://dictionary.com");
          break;
        case "friendly chat":
-         javascript: var test = Math.floor(Math.random() * 4) + 1;
+         javascript: var test = Math.floor(Math.random() * 5) + 1;
 	 	 switch (test) {
 			 case 1: 
 	 			 javascript: alert("Oh I'm fine thank you. This one lady decided to turn up the music so high it broke my window when I was driving to the store.");
@@ -38,6 +38,9 @@ document.onkeypress = function(e) {
 				 alert("That movie was good wasn't it?");
 				 alert("No? Well, screw you.");
 				 break;
+			 case 5:
+				 javascript: alert("I don't know. And you?");
+				 break;
 		     }
          break;
        case "help":
@@ -45,7 +48,9 @@ document.onkeypress = function(e) {
          alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress L \ncrash \nPress Q (replace)");
          break;
        case "take me to your leader":
-         javascript: window.open("http://marsubia.x10.mx/");
+         javascript: 
+         alert("Dialing him now.");
+         window.open("http://marsubia.x10.mx/");
          break;
        case "secret":
          javascript: alert("No.");
