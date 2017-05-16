@@ -14,9 +14,17 @@ document.onkeypress = function(e) {
          javascript: window.open("http://dictionary.com");
          break;
        case "friendly chat":
-         javascript: alert("Oh I'm fine thank you. This one lady decided to turn up the music so high it broke my window when I was driving to the store.");
-         alert("People can be such imbeciles, you know?");
-         alert("I know you do.");
+         javascript: var test = Math.floor(Math.random() * 4) + 1;
+	 	 switch (test) {
+			 case 1: 
+	 			 javascript: alert("Oh I'm fine thank you. This one lady decided to turn up the music so high it broke my window when I was driving to the store.");
+         		 alert("People can be such imbeciles, you know?");
+         		 alert("I know you do.");
+				 break;
+			 default:
+				 javascript: alert("test");
+				 break;
+		     }
          break;
        case "help":
          javascript: alert("Help is on the way!");
