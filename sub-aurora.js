@@ -6,6 +6,7 @@ console.log("Sub Aurora 0.07 Installed on your page. Thank you for choosing us."
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
+     var b = a.indexOf(a);
      switch (a) {
        case "nothing":
          javascript: alert("Ok. Thank you for your assistance.");
