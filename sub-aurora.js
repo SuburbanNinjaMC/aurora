@@ -1,8 +1,8 @@
 javascript:
-alert("Welcome to Sub Aurora 0.06.");
+alert("Welcome to Sub Aurora 0.07.");
 alert("My name is SuburbanNinjaMC.");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.05 Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.07 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
@@ -18,11 +18,25 @@ document.onkeypress = function(e) {
 	 	 switch (test) {
 			 case 1: 
 	 			 javascript: alert("Oh I'm fine thank you. This one lady decided to turn up the music so high it broke my window when I was driving to the store.");
-         		 alert("People can be such imbeciles, you know?");
-         		 alert("I know you do.");
+         		 	 alert("People can be such imbeciles, you know?");
+         		 	 alert("I know you do.");
 				 break;
-			 default:
-				 javascript: alert("test");
+			 case 2:
+				 javascript: alert("Fine. However, I had one too many gummy bears.");
+				 alert("Now I'm sugar high.");
+				 alert("*sigh*");
+				 break;
+			 case 3:
+				 javascript: alert("Not good at all.");
+				 alert("I had a drivers test. And I failed.");
+				 alert("Aren't I supposed to be your driver?");
+				 alert("RIP in pieces you.");
+				 break;
+			 case 4:
+				 javascript: alert("Very good!");
+				 alert("I smok- I mean ate a lot of wee- I mean popcorn.");
+				 alert("That movie was good wasn't it?");
+				 alert("No? Well, screw you.");
 				 break;
 		     }
          break;
