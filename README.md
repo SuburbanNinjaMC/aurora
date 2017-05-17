@@ -6,7 +6,7 @@
 
 > ### Here are some commands.
 
-> |Shift + Q| |Replace All Words|
-> |Shift + I| |Replace Aurora with Fun Machine|
-> |Shift + O| |Edit the Website|
-> |Shift + J| |Access Commands|
+> | Shift + Q | | Replace All Words  |
+> | Shift + I | | Replace Aurora with Fun Machine |
+> | Shift + O | | Edit the Website |
+> | Shift + J | | Access Commands |
