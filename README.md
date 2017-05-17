@@ -4,13 +4,6 @@
 >> Sub Aurora. The right way to do things.
 >>> Sub Aurora 0.14 "Vega"
 
->>> Versions so far:
->>>> "Primo"
->>>> "Verde"
->>>> "Star"
->>>> "Galaxy"
->>>> "Vega"
-
 | Key Combination | Description |
 | --------------- | ----------- |
 | Shift+J         | Opens the prompt. |
