@@ -13,8 +13,13 @@ document.onkeypress = function(e) {
 	 javascript:alert('Last edited\n'+document.lastModified);
          break;
 	     case (a.indexOf("prank") != -1):
-		     for (i = 0; i < 100; i++) {
+		     var a = prompt("Type in the number. Any number.");
+		     for (i = 0; i < a; i++) {
 			     alert("HOLARME KRAMPUS KRAMPUS PRANKD AND BIPPED 2MLG6ME");
+			     alert("ILLUMINATI!");
+			     alert("Am I spamming?");
+			     alert("I am cliche master.");
+			     alert("2142 2142 1738 1337 SMOK WEED.");
 		     }
 		     break;
        case (a.indexOf("dictionary") != -1):
@@ -57,7 +62,7 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
-         alert("Commands to use (you can use these in sentences) \nnothing \nmodified \nfun machine \ndictionary \nfriendly chat \nleader \nPress O \ncrash   \nPress Q (ce)");
+         alert("Commands to use (you can use these in sentences) \nnothing \nprank \nmodified \nfun machine \ndictionary \nfriendly chat \nleader \nPress O \ncrash   \nPress Q (ce)");
          break;
        case (a.indexOf("leader") != -1):
          javascript: 
