@@ -52,7 +52,7 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
-         alert("Commands to use (you can use these in sentences) \nnothing \ndictionary \nfriendly chat \nleader \nPress O \ncrash   \nPress Q (ce)");
+         alert("Commands to use (you can use these in sentences) \nnothing \nmodified \nfun machine \ndictionary \nfriendly chat \nleader \nPress O \ncrash   \nPress Q (ce)");
          break;
        case (a.indexOf("leader") != -1):
          javascript: 
@@ -63,7 +63,7 @@ document.onkeypress = function(e) {
          javascript: alert("No.");
          break;
 	   case (a.indexOf("fun machine") != -1):
-		     javascript: alert("Press Shift+I
+		     javascript: alert("Press Shift+I");
 			 break;
        case (a.indexOf("crash") != -1):
          javascript: 
