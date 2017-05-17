@@ -12,6 +12,11 @@ document.onkeypress = function(e) {
        case (a.indexOf("modified") != -1):
 	 javascript:alert('Last edited\n'+document.lastModified);
          break;
+	     case (a.indexOf("prank") != -1):
+		     for (i = 0; i < 100; i++) {
+			     alert("HOLARME KRAMPUS KRAMPUS PRANKD AND BIPPED 2MLG6ME");
+		     }
+		     break;
        case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
          break;
