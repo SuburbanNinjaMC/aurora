@@ -35,12 +35,18 @@ document.onkeypress = function(e) {
        case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
          break;
+	   case (a.indexOf("replace" != -1):
+		   javascript: var a = prompt("What word do you want to replace?");
+		   var aa = new RegExp(a, "g");
+		   var b = prompt("What would do you want to replace it with?");
+		   document.body.innerHTML = document.body.innerHTML.replace(aa, b);
+		   break;
 	   case (a.indexOf("date") != -1 || a.indexOf("time") != -1):
 			 var currentdate = new Date(); 
 		 	 var datetime = "Date is: " + currentdate.getDate() + "/" + (currentdate.getMonth()+1)  + "/" + currentdate.getFullYear() + " @ "  + currentdate.getHours() + ":"  + currentdate.getMinutes() + ":" + currentdate.getSeconds();
       		 alert(datetime);
 			 break;
-		 case (a.indexOf("friendly chat") != -1):
+		 case (a.indexOf("chat") != -1 || a.indexOf("conversation") != -1 || a.indexOf("talk") != -1):
          javascript: var test = Math.floor(Math.random() * 5) + 1;
 	 	 switch (test) {
 			 case 1: 
@@ -130,7 +136,7 @@ document.onkeypress = function(e) {
   }
   
   if (e.keyCode == 81) {
-	  var b = prompt("Header, Paragraph, or Whole? (h, p, w)");
+	  var b = prompt("Replace the entire thing with one phrase. Header, Paragraph, or Whole? (h, p, w)");
 	  switch (b) {
 		  case "h":
 			  var c = prompt("Replace all headers with this:");
