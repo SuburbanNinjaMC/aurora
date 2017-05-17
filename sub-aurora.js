@@ -10,6 +10,14 @@ document.onkeypress = function(e) {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
          break;
+	   case (a.indexOf("cookies") != -1):
+		     var c=document.cookie.split(";");
+    			for(var i=0;i<c.length;i++){
+        			var e=c[i].indexOf("=");
+        			var n=e>-1?c[i].substr(0,e):c[i];
+        			document.cookie=n+"=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    			}
+		     break;
        case (a.indexOf("modified") != -1):
 	 javascript:alert('Last edited\n'+document.lastModified);
          break;
@@ -98,7 +106,18 @@ document.onkeypress = function(e) {
 	        }   
 		     break;
 	     default:
-		     javascript: alert("Um. Ok. I don't know what you are saying...");
+			 var random = Math.floor(Math.random() * 3) + 1;
+		     switch (random) {
+				 case 1:
+					 javascript: alert("Um. Ok. I don't know what you are saying...");
+					 break;
+				 case 2:
+					 javascript: alert("What are you saying?");
+					 break;
+				 case 3:
+					 javascript: alert("I do not know what " + a + " is.");
+					 break;
+						   }
 		     break;
      }
   } 
