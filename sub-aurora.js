@@ -1,11 +1,12 @@
 javascript:
 (function() {
-alert("Welcome to Sub Aurora 0.15 'Vega'");
+alert("Welcome to Sub Aurora 0.16 'Vega'");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.15 Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.16 'Vega' Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
-     var a = prompt("Now what may I do for you?");
+     var b = prompt("Now what may I do for you?");
+     var a = b.toLowerCase();
      switch (true) {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
