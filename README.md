@@ -1,8 +1,15 @@
-## Sub Aurora
+# Sub Aurora
 
 > ### Welcome.
 >> Sub Aurora. The right way to do things.
 >>> Sub Aurora 0.14 "Vega"
+
+>>> Versions so far:
+>>>> "Primo"
+>>>> "Verde"
+>>>> "Star"
+>>>> "Galaxy"
+>>>> "Vega"
 
 | Key Combination | Description |
 | --------------- | ----------- |
