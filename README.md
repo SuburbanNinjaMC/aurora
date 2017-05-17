@@ -4,10 +4,10 @@
 >> Sub Aurora. The right way to do things.
 >>> Sub Aurora 0.14 "Vega"
 
-### Here are some commands.
-| Key Commands | | Descriptors |
-| ----------   | |--------------------|
-| Shift + Q    | | Replace All Words  |
-| Shift + I    | | Replace Aurora with Fun Machine |
-| Shift + O    | | Edit the Website |
-| Shift + J    | | Access Commands |
+| Key Combination | Description |
+| --------------- | ----------- |
+| Shift+O         | Opens the prompt. [Keyphrases](#shifto-prompts)|
+| Shift+C         | Opens the Cover. (Be on an http:// site ALWAYS.) |
+| Shift+G         | Goes to dictionary.com |
+| Shift+T         | Crashes the page |
+| Shift+N         | Toggles New Tab (Opens in a new window.) |
