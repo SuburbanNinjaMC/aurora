@@ -1,8 +1,8 @@
 javascript:
 (function() {
-alert("Welcome to Sub Aurora 0.16 'Vega'");
+alert("Welcome to Sub Aurora 0.17 'Vega'");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.16 'Vega' Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.17 'Vega' Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
@@ -20,9 +20,9 @@ document.onkeypress = function(e) {
     			}
 		     break;
        case (a.indexOf("modified") != -1):
-	 javascript:alert('Last edited\n'+document.lastModified);
-         break;
-	     case (a.indexOf("prank") != -1):
+	 		javascript:alert('Last edited\n'+document.lastModified);
+         	break;
+	   case (a.indexOf("prank") != -1):
 		     var a = prompt("Type in the number. Any number.");
 		     for (i = 0; i < a; i++) {
 			     alert("HOLARME KRAMPUS KRAMPUS PRANKD AND BIPPED 2MLG6ME");
@@ -35,7 +35,7 @@ document.onkeypress = function(e) {
        case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
          break;
-	   case (a.indexOf("replace" != -1):
+	   case (a.indexOf("replace") != -1):
 		   javascript: var a = prompt("What word do you want to replace?");
 		   var aa = new RegExp(a, "g");
 		   var b = prompt("What would do you want to replace it with?");
@@ -78,7 +78,7 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
-         alert("Commands to use (you can use these in sentences) \nnothing \nprank \nmodified \nfun machine \ndictionary \nfriendly chat \nleader \nPress O \ncrash   \nPress Q (ce)");
+         alert("Commands to use (you can use these in sentences) \nnothing \nprank \nreplace \nmodified \nfun machine \ndictionary \nchat (conversation, talk) \nleader \nPress O \ncrash   \nPress Q (ce)");
          break;
        case (a.indexOf("leader") != -1):
          javascript: 
