@@ -1,8 +1,8 @@
 # Sub Aurora
 
-> ##Welcome.
-> ##Sub Aurora. The right way to do things.
+> ## Welcome.
+> ## Sub Aurora. The right way to do things.
 
-> ##Here are some commands you can use.
+> ## Here are some commands.
 
-|Shift + Q| |Replace All Words|
+> |Shift + Q| |Replace All Words|
