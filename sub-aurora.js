@@ -62,6 +62,8 @@ document.onkeypress = function(e) {
        case (a.indexOf("secret") != -1):
          javascript: alert("No.");
          break;
+	   case (a.indexOf("fun machine") != -1):
+			 break;
        case (a.indexOf("crash") != -1):
          javascript: 
          var d = confirm("Are you sure?");
