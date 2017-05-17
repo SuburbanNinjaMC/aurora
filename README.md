@@ -24,6 +24,8 @@
 
 ## Future Code Names 
 
+| Version | Description |
+| ---------------| -------------- |
 | 0.21 - 0.24 | Hercules |
 | 0.25 - 0.30 | Corvus |
 | 0.31 - 0.35 | Lyra |
