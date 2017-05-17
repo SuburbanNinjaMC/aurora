@@ -1,7 +1,7 @@
 javascript:
-alert("Welcome to Sub Aurora 0.10.");
+alert("Welcome to Sub Aurora 0.11.");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.10 Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.11 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
@@ -13,7 +13,7 @@ document.onkeypress = function(e) {
        case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
          break;
-	   case (a.indexOf("date") != -1):
+	   case (a.indexOf("date") != -1 || a.indexOf("time") != -1):
 			 var currentdate = new Date(); 
 		 	 var datetime = "Date is: " + currentdate.getDate() + "/" + (currentdate.getMonth()+1)  + "/" + currentdate.getFullYear() + " @ "  + currentdate.getHours() + ":"  + currentdate.getMinutes() + ":" + currentdate.getSeconds();
       		 alert(datetime);
