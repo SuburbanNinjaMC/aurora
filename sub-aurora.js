@@ -1,4 +1,8 @@
 javascript:
+(function() {
+var jsCode = document.createElement('script'); 
+jsCode.setAttribute('src', 'https://github.com/SuburbanNinjaMC/sub-aurora/blob/master/sub-aurora.js');                  
+document.body.appendChild(jsCode); 
 alert("Welcome to Sub Aurora 0.14.");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.14 Installed on your page. Thank you for choosing us.");
@@ -227,6 +231,7 @@ document.onkeypress = function(e) {
 		 }}
   
 }
+}());
 
 
   
