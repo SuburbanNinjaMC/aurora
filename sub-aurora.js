@@ -80,6 +80,9 @@ document.onkeypress = function(e) {
 		        javascript: var b = window.open("", "b", "width:100px");
 		        b.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
 	        }   
+		     break;
+	     default:
+		     javascript: alert("Um. Oj
      }
   } 
   
@@ -148,6 +151,7 @@ document.onkeypress = function(e) {
 			links[l].innerText = c;
 		}
 			  break;
+	
 	}
   }
   
