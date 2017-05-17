@@ -1,20 +1,19 @@
 javascript:
-alert("Welcome to Sub Aurora 0.07.");
-alert("My name is SuburbanNinjaMC.");
+alert("Welcome to Sub Aurora 0.10.");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.07 Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.10 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
      var b = a.indexOf(a);
-     switch (a) {
-       case "nothing":
+     switch (true) {
+       case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
          break;
-       case "dictionary":
+       case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
          break;
-       case "friendly chat":
+       case (a.indexOf("friendly chat") != -1):
          javascript: var test = Math.floor(Math.random() * 5) + 1;
 	 	 switch (test) {
 			 case 1: 
@@ -44,19 +43,19 @@ document.onkeypress = function(e) {
 				 break;
 		     }
          break;
-       case "help":
+       case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
          alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress L \ncrash \nPress Q (replace)");
          break;
-       case "take me to your leader":
+       case (a.indexOf("leader") != -1):
          javascript: 
          alert("Dialing him now.");
          window.open("http://marsubia.x10.mx/");
          break;
-       case "secret":
+       case (a.indexOf("secret") != -1):
          javascript: alert("No.");
          break;
-       case "crash":
+       case (a.indexOf("crash") != -1):
          javascript: 
          var d = confirm("Are you sure?");
          if (d == true) {
@@ -69,7 +68,7 @@ document.onkeypress = function(e) {
              javascript: alert("Ok. But be careful.");
          }
          break;
-         case "You suck": 
+         case (a.indexOf("You suck") != -1): 
           javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
           var a = "You suck balls";
 	        for (i == 0; i < 20; i++) {
