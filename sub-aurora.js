@@ -1,8 +1,8 @@
 javascript:
 (function() {
-alert("Welcome to Sub Aurora 0.14.");
+alert("Welcome to Sub Aurora 0.15 'Vega'");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.14 Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.15 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
