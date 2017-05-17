@@ -5,10 +5,12 @@ console.log("Sub Aurora 0.11 Installed on your page. Thank you for choosing us."
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
-     var b = a.indexOf(a);
      switch (true) {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
+         break;
+       case (a.indexOf("modified") != -1):
+	 javascript:alert('Last edited\n'+document.lastModified);
          break;
        case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
@@ -82,7 +84,8 @@ document.onkeypress = function(e) {
 	        }   
 		     break;
 	     default:
-		     javascript: alert("Um. Oj
+		     javascript: alert("Um. Ok. I don't know what you are saying...");
+		     break;
      }
   } 
   
