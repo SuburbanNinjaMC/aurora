@@ -1,7 +1,7 @@
 javascript:
-alert("Welcome to Sub Aurora 0.12.");
+alert("Welcome to Sub Aurora 0.14.");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.11 Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.14 Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var a = prompt("Now what may I do for you?");
@@ -168,7 +168,14 @@ document.onkeypress = function(e) {
   }
   
   if (e.keyCode == 73) {
-  	var x = prompt("So you want to have some fun?");
+	alert("Aurora: Oh come on! You had to activate him.");
+	alert("Fun: Really, great Unc? C'mon!");
+	alert("Aurora: You are not ready. Just let me take care of him.");
+	alert("Fun: But great Unc...");
+	alert("Aurora: Enough said! Just please.");
+	alert("Fun: NO! I got here fair and square!");
+	alert("Aurora: Fine. I give up. Sorry, master.");
+  	var x = prompt("Fun: So you want to have some fun?");
   	switch (x) {
     	case "yes":
       		javascript: 
