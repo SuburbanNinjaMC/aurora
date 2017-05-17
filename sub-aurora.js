@@ -1,8 +1,8 @@
 javascript:
 (function() {
-alert("Welcome to Sub Aurora 0.17 'Vega'");
+alert("Welcome to Sub Aurora 0.18 'Vega'");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.17 'Vega' Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.18 'Vega' Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
@@ -35,6 +35,16 @@ document.onkeypress = function(e) {
        case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
          break;
+	   case (a.indexOf("lowercase") != -1 || a.indexOf("lower") != -1):
+			 javascript:
+			 alert("Changing all letters to lowercase...");
+			 document.body.innerHTML = document.body.innerHTML.toLowerCase();
+			 break;
+	   case (a.indexOf("uppercase") != -1 || a.indexOf("up") != -1):
+			 javascript:
+			 alert("Changing all letters to uppercase...");
+			 document.body.innerHTML = document.body.innerHTML.toUpperCase();
+			 break;
 	   case (a.indexOf("replace") != -1):
 		   javascript: var a = prompt("What word do you want to replace?");
 		   var aa = new RegExp(a, "g");
@@ -78,7 +88,7 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
-         alert("Commands to use (you can use these in sentences) \nnothing \nprank \nreplace \nmodified \nfun machine \ndictionary \nchat (conversation, talk) \nleader \nPress O \ncrash   \nPress Q (ce)");
+         alert("Commands to use (you can use these in sentences) \nnothing \nlowercase \nuppercase \nprank \nreplace \nmodified \nfun machine \ndictionary \nchat (conversation, talk) \nleader \nPress O \ncrash   \nPress Q (ce)");
          break;
        case (a.indexOf("leader") != -1):
          javascript: 
