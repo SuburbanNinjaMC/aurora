@@ -13,7 +13,12 @@ document.onkeypress = function(e) {
        case (a.indexOf("dictionary") != -1):
          javascript: window.open("http://dictionary.com");
          break;
-       case (a.indexOf("friendly chat") != -1):
+	   case (a.indexOf("date") != -1):
+			 var currentdate = new Date(); 
+		 	 var datetime = "Date is: " + currentdate.getDate() + "/" + (currentdate.getMonth()+1)  + "/" + currentdate.getFullYear() + " @ "  + currentdate.getHours() + ":"  + currentdate.getMinutes() + ":" + currentdate.getSeconds();
+      		 alert(datetime);
+			 break;
+		 case (a.indexOf("friendly chat") != -1):
          javascript: var test = Math.floor(Math.random() * 5) + 1;
 	 	 switch (test) {
 			 case 1: 
@@ -45,7 +50,7 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
-         alert("Commands to use \nnothing \ndictionary \nfriendly chat \ntake me to your leader \nslogin \nPress L \ncrash \nPress Q (replace)");
+         alert("Commands to use (you can use these in sentences) \nnothing \ndictionary \nfriendly chat \nleader \nPress O \ncrash   \nPress Q (ce)");
          break;
        case (a.indexOf("leader") != -1):
          javascript: 
