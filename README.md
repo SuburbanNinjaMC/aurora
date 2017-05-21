@@ -10,6 +10,7 @@
 | Shift+I         | Replaces Sub Aurora with Fun Machine |
 | Shift+O         | Allows for editing website |
 | Shift+Q         | Replace all words on a page |
+| Shift+P         | Access EDU edition |
 
 # Version Code Names
 
@@ -20,13 +21,13 @@
 | 0.02 -  0.05       | Altair |
 | 0.06 -0.10       | Perseus |
 | 0.11 - 0.13        | Ursa |
-| 0.14 - 0.20       | Vega |
+| 0.14 - 0.19       | Vega |
+| 0.20 - 0.24       | Hercules |
 
 ## Future Code Names 
 
 | Version | Description |
 | ---------------| -------------- |
-| 0.21 - 0.24 | Hercules |
 | 0.25 - 0.30 | Corvus |
 | 0.31 - 0.35 | Lyra |
 | 0.36 | Commence |
