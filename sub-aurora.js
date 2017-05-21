@@ -22,6 +22,7 @@ document.onkeypress = function(e) {
        case (a.indexOf("modified") != -1):
 	 		javascript:alert('Last edited\n'+document.lastModified);
          	break;
+	
 	   case (a.indexOf("prank") != -1):
 		     var a = prompt("Type in the number. Any number.");
 		     for (i = 0; i < a; i++) {
@@ -98,9 +99,9 @@ document.onkeypress = function(e) {
        case (a.indexOf("secret") != -1):
          javascript: alert("No.");
          break;
-	   case (a.indexOf("fun machine") != -1):
-		     javascript: alert("Press Shift+I");
-			 break;
+       case (a.indexOf("fun machine") != -1):
+		 javascript: alert("Press Shift+I");
+		 break;
        case (a.indexOf("crash") != -1):
          javascript: 
          var d = confirm("Are you sure?");
@@ -212,6 +213,33 @@ document.onkeypress = function(e) {
     for (var i = 0; i < 5; i++) {
       window.open("", _blank);
     }
+  }
+	
+  //p
+  if (e.keyCode == 80) {
+	  alert("I am Matimas, your EDU Aurora counterpart.");
+	  var b = prompt("Now what may I do for you?");
+	  var a = b.toLowerCase();
+	  switch (true) {
+		  case (a.indexOf("calc") != -1):
+				  var b = prompt("Addition, Division, Subtraction, Multiplication, or SQRT?");
+			  	  switch (true) {
+					  case (a.indexOf("add") != -1):
+						  		javascript: var c = prompt("Type the first number:");
+						  		var d = prompt("Type the second number:");
+						  	    alert(c + d);
+						  		break;
+					  case (a.indexOf("sub") != -1):
+						  		javascript: javascript: var c = prompt("Type the first number:");
+						  		var d = prompt("Type the second number:");
+						  		alert(c - d);
+						  		break;
+				  }
+			  break;
+		  case (a.indexOf("cpr") != -1):
+			  javascript: alert("As a reminder: Give 30 chest compressions and 2 breaths. Do this in a loop.");
+			  break;
+	  }
   }
   
   if (e.keyCode == 73) {
