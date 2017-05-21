@@ -1,8 +1,8 @@
 javascript:
 (function() {
-alert("Welcome to Sub Aurora 0.18 'Vega'");
+alert("Welcome to Sub Aurora 0.20 'Hercules'");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.18 'Vega' Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.20 'Hercules' Installed on your page. Thank you for choosing us.");
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
@@ -22,6 +22,7 @@ document.onkeypress = function(e) {
        case (a.indexOf("modified") != -1):
 	 		javascript:alert('Last edited\n'+document.lastModified);
          	break;
+	   case (a.indexO
 	
 	   case (a.indexOf("prank") != -1):
 		     var a = prompt("Type in the number. Any number.");
@@ -215,7 +216,6 @@ document.onkeypress = function(e) {
     }
   }
 	
-  //p
   if (e.keyCode == 80) {
 	  alert("I am Matimas, your EDU Aurora counterpart.");
 	  var b = prompt("Now what may I do for you?");
@@ -224,13 +224,13 @@ document.onkeypress = function(e) {
 		  case (a.indexOf("calc") != -1):
 				  var b = prompt("Addition, Division, Subtraction, Multiplication, or SQRT?");
 			  	  switch (true) {
-					  case (a.indexOf("add") != -1):
+					  case (b.indexOf("add") != -1):
 						  		javascript: var c = prompt("Type the first number:");
 						  		var d = prompt("Type the second number:");
 						  	    alert(c + d);
 						  		break;
-					  case (a.indexOf("sub") != -1):
-						  		javascript: javascript: var c = prompt("Type the first number:");
+					  case (b.indexOf("sub") != -1):
+						  		javascript: var c = prompt("Type the first number:");
 						  		var d = prompt("Type the second number:");
 						  		alert(c - d);
 						  		break;
