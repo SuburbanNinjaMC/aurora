@@ -229,7 +229,9 @@ document.onkeypress = function(e) {
 					  case (b.indexOf("add") != -1):
 						  		javascript: var c = prompt("Type the first number:");
 						  		var d = prompt("Type the second number:");
-						  	    alert(c + d);
+						  		var e = c + d;
+						  	    	alert(e);
+						  		alert("PRANKD");
 						  		break;
 					  case (b.indexOf("sub") != -1):
 						  		javascript: var c = prompt("Type the first number:");
