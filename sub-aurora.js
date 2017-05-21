@@ -22,7 +22,9 @@ document.onkeypress = function(e) {
        case (a.indexOf("modified") != -1):
 	 		javascript:alert('Last edited\n'+document.lastModified);
          	break;
-	   case (a.indexO
+       case (a.indexOf("edu") != -1):
+		     alert("Shift + P");
+		     break;
 	
 	   case (a.indexOf("prank") != -1):
 		     var a = prompt("Type in the number. Any number.");
