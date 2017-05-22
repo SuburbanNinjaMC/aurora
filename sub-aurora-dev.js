@@ -5,9 +5,7 @@ alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.21 'Hercules' Installed on your page. Thank you for choosing us.");
 var edu, fun, edit, replace = true;
 var redu = false, rfun = false;
-document.onkeypress = function(e) {
-  if (e.keyCode == 74) {
-     if (redu == false && rfun == false) {
+function subAuroraRegular() {
      var b = prompt("Now what may I do for you?");
      var a = b.toLowerCase();
      switch (true) {
@@ -166,6 +164,120 @@ document.onkeypress = function(e) {
 						   }
 		     break;
 		 }
+}
+
+function subAuroraEDU() {
+	alert("I am Matimas, your EDU Aurora counterpart.");
+	  var b = prompt("Now what may I do for you?");
+	  var a = b.toLowerCase();
+	  switch (true) {
+		  case (a.indexOf("calc") != -1):
+				  var b = prompt("Addition, Division, Subtraction, Multiplication, or SQRT?");
+			  	  switch (true) {
+					  case (b.indexOf("add") != -1):
+						  		javascript: var c = prompt("Type the first number:");
+						  		var d = prompt("Type the second number:");
+						  		var e = c + d;
+						  	    	alert(e);
+						  		alert("PRANKD");
+						  		break;
+					  case (b.indexOf("sub") != -1):
+						  		javascript: var c = prompt("Type the first number:");
+						  		var d = prompt("Type the second number:");
+						  		alert(c - d);
+						  		break;
+					  case (b.indexOf("div") != -1):
+						  		javascript: var c = prompt("Type the first number:");
+								var d = prompt("Type the divisor:");
+						  		alert(c/d);
+						  		break;
+				  }
+			  break;
+		  case (a.indexOf("cpr") != -1):
+			  javascript: alert("As a reminder: Give 30 chest compressions and 2 breaths. Do this in a loop.");
+			  break;
+		  case (a.indexOf("search") != -1):
+			  javascript: var a = prompt("What do you want to search for?");
+			  location.href = "https://google.com/search?q=" + a + "/";
+			  break;
+		  case (a.indexOf("resources") != -1):
+			  break;
+		  case (a.indexOf("help") != -1):
+			  alert("Help is on the way!");
+			  alert("Commands (Edu) (You can use these in sentences: \nCPR \nSearch \nResources \nCalc");
+	          default:
+			 var random = Math.floor(Math.random() * 3) + 1;
+		     switch (random) {
+				 case 1:
+					 javascript: alert("Um. Ok. I don't know what you are saying...");
+					 break;
+				 case 2:
+					 javascript: alert("What are you saying?");
+					 break;
+				 case 3:
+					 javascript: alert("I do not know what " + a + " is.");
+					 break;
+						   }
+		     break;
+	  }
+}
+function subAuroraFun() {
+	alert("Aurora: Oh come on! You had to activate him.");
+	alert("Fun: Really, great Unc? C'mon!");
+	alert("Aurora: You are not ready. Just let me take care of him.");
+	alert("Fun: But great Unc...");
+	alert("Aurora: Enough said! Just please.");
+	alert("Fun: NO! I got here fair and square!");
+	alert("Aurora: Fine. I give up. Sorry, master.");
+  	var x = prompt("Fun: So you want to have some fun?");
+  	switch (x) {
+    	case "yes":
+      		javascript: 
+      		alert("Yay! You have a good spirit.");
+      		var y = prompt("So what now? Want me to type something?");
+      		switch (y) {
+	        case "yes":
+		      javascript: var y = prompt("OK! Type something!");
+     		      var z = window.open("", "z", "width:100px");
+     		      z.document.write("<body contenteditable='true'><title>Textbox</title>" + y + "</body>");
+		       break;
+	      case "no": 
+		      javascript: alert("ok.");
+		      break;
+	      }   
+      	break;
+    	case "no":
+      		javascript:
+      		var x = prompt("Then why are you here?"); 
+      		switch (x) { 
+        		case "Because I am": 
+          			javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
+          			var a = "You suck balls";
+	  			for (i == 0; i < 20; i++) {
+	          			javascript: var b = window.open("", "b", "width:100px");
+		  			b.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
+	 			 }   
+	  			break;
+       			case "I don't know": 
+          			javascript:alert('Then why are you here?');
+          			break; 
+        		case "help": 
+          			javascript:alert("Commands: \nBecause I am \nI don't know"); 
+          			break; 
+		
+     			 }
+      		break;
+  	
+		 }
+}
+document.onkeypress = function(e) {
+  if (e.keyCode == 74) {
+     if (redu == false && rfun == false) {
+	     subAuroraRegular();
+     } else if (redu == true && rfun == false) {
+	     subAuroraEDU();
+     } else if (redu == false && rfun == true) {
+	     subAuroraFun();
      }
   } 
   
@@ -245,109 +357,12 @@ document.onkeypress = function(e) {
   }
 	
   if (e.keyCode == 80 && edu == true) {
-	  alert("I am Matimas, your EDU Aurora counterpart.");
-	  var b = prompt("Now what may I do for you?");
-	  var a = b.toLowerCase();
-	  switch (true) {
-		  case (a.indexOf("calc") != -1):
-				  var b = prompt("Addition, Division, Subtraction, Multiplication, or SQRT?");
-			  	  switch (true) {
-					  case (b.indexOf("add") != -1):
-						  		javascript: var c = prompt("Type the first number:");
-						  		var d = prompt("Type the second number:");
-						  		var e = c + d;
-						  	    	alert(e);
-						  		alert("PRANKD");
-						  		break;
-					  case (b.indexOf("sub") != -1):
-						  		javascript: var c = prompt("Type the first number:");
-						  		var d = prompt("Type the second number:");
-						  		alert(c - d);
-						  		break;
-					  case (b.indexOf("div") != -1):
-						  		javascript: var c = prompt("Type the first number:");
-								var d = prompt("Type the divisor:");
-						  		alert(c/d);
-						  		break;
-				  }
-			  break;
-		  case (a.indexOf("cpr") != -1):
-			  javascript: alert("As a reminder: Give 30 chest compressions and 2 breaths. Do this in a loop.");
-			  break;
-		  case (a.indexOf("search") != -1):
-			  javascript: var a = prompt("What do you want to search for?");
-			  location.href = "https://google.com/search?q=" + a + "/";
-			  break;
-		  case (a.indexOf("resources") != -1):
-			  break;
-		  case (a.indexOf("help") != -1):
-			  alert("Help is on the way!");
-			  alert("Commands (Edu) (You can use these in sentences: \nCPR \nSearch \nResources \nCalc");
-	          default:
-			 var random = Math.floor(Math.random() * 3) + 1;
-		     switch (random) {
-				 case 1:
-					 javascript: alert("Um. Ok. I don't know what you are saying...");
-					 break;
-				 case 2:
-					 javascript: alert("What are you saying?");
-					 break;
-				 case 3:
-					 javascript: alert("I do not know what " + a + " is.");
-					 break;
-						   }
-		     break;
-	  }
+	  subAuroraEDU();
   }
   
   if (e.keyCode == 73 && fun == true) {
-	alert("Aurora: Oh come on! You had to activate him.");
-	alert("Fun: Really, great Unc? C'mon!");
-	alert("Aurora: You are not ready. Just let me take care of him.");
-	alert("Fun: But great Unc...");
-	alert("Aurora: Enough said! Just please.");
-	alert("Fun: NO! I got here fair and square!");
-	alert("Aurora: Fine. I give up. Sorry, master.");
-  	var x = prompt("Fun: So you want to have some fun?");
-  	switch (x) {
-    	case "yes":
-      		javascript: 
-      		alert("Yay! You have a good spirit.");
-      		var y = prompt("So what now? Want me to type something?");
-      		switch (y) {
-	        case "yes":
-		      javascript: var y = prompt("OK! Type something!");
-     		      var z = window.open("", "z", "width:100px");
-     		      z.document.write("<body contenteditable='true'><title>Textbox</title>" + y + "</body>");
-		       break;
-	      case "no": 
-		      javascript: alert("ok.");
-		      break;
-	      }   
-      	break;
-    	case "no":
-      		javascript:
-      		var x = prompt("Then why are you here?"); 
-      		switch (x) { 
-        		case "Because I am": 
-          			javascript:alert('Oh. Sassy now, are you? You will be punished.'); 
-          			var a = "You suck balls";
-	  			for (i == 0; i < 20; i++) {
-	          			javascript: var b = window.open("", "b", "width:100px");
-		  			b.document.write("<body contenteditable='true'><title>Y U do dis</title>" + a + "</body>");
-	 			 }   
-	  			break;
-       			case "I don't know": 
-          			javascript:alert('Then why are you here?');
-          			break; 
-        		case "help": 
-          			javascript:alert("Commands: \nBecause I am \nI don't know"); 
-          			break; 
-		
-     			 }
-      		break;
-  	
-		 }}
+	subAuroraFun();
+  }
   
 }
 }());
