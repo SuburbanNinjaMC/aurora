@@ -305,7 +305,7 @@ document.onkeypress = function(e) {
      			 }
       		break;
   	
-		 }}
+		 }
   
 }
 }());
