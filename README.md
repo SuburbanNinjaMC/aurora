@@ -7,10 +7,16 @@
 | Key Combination | Description |
 | --------------- | ----------- |
 | Shift+J         | Opens the prompt. |
-| Shift+I         | Replaces Sub Aurora with Fun Machine |
-| Shift+O         | Allows for editing website |
+| Shift+I         | Replaces Sub Aurora with Fun Machine (Cannot do unless activated)|
+| Shift+O         | Allows for editing website (Cannot do unless activated)|
 | Shift+Q         | Replace all words on a page |
-| Shift+P         | Access EDU edition |
+| Shift+P         | Access EDU edition (Cannot do unless activated)|
+
+How to activate
+
+Edu: Type in edu in the prompt.
+Editing: Type in edit in the prompt.
+Fun Machine: Type in fun in the prompt.
 
 # Version Code Names
 
