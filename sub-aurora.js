@@ -1,9 +1,9 @@
 javascript:
 (function() {
-alert("Welcome to Sub Aurora 0.20 'Hercules'");
+alert("Welcome to Sub Aurora 0.21 'Hercules'");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.20 'Hercules' Installed on your page. Thank you for choosing us.");
-var edu, debug, fun;
+console.log("Sub Aurora 0.21 'Hercules' Installed on your page. Thank you for choosing us.");
+var edu, fun, edit, replace;
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
@@ -26,9 +26,14 @@ document.onkeypress = function(e) {
        case (a.indexOf("edu") != -1):
 		     alert("Shift + P");
 		     edu = true;
-		     console.log("EDU Activated");
+		     console.log("Sub Aurora: EDU Activated");
 		     break;
-	   case (a.indexOf("prank") != -1):
+	     case (a.indexOf("edit") != -1):
+		     alert("Shift + O");
+		     edit = true;
+		     console.log("Sub Aurora: editing Activated.");
+		     break;
+       case (a.indexOf("prank") != -1):
 		     var a = prompt("Type in the number. Any number.");
 		     for (i = 0; i < a; i++) {
 			     alert("HOLARME KRAMPUS KRAMPUS PRANKD AND BIPPED 2MLG6ME");
@@ -57,6 +62,11 @@ document.onkeypress = function(e) {
 		   var b = prompt("What would do you want to replace it with?");
 		   document.body.innerHTML = document.body.innerHTML.replace(aa, b);
 		   break;
+	     case (a.indexOf("replace all") != -1):
+		     alert("Shift + Q");
+		     replace = true;
+		     console.log("Sub Aurora: Replace All Feature Activated.");
+		     break;
 	   case (a.indexOf("date") != -1 || a.indexOf("time") != -1):
 			 var currentdate = new Date(); 
 		 	 var datetime = "Date is: " + currentdate.getDate() + "/" + (currentdate.getMonth()+1)  + "/" + currentdate.getFullYear() + " @ "  + currentdate.getHours() + ":"  + currentdate.getMinutes() + ":" + currentdate.getSeconds();
@@ -94,7 +104,7 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
-         alert("Commands to use (you can use these in sentences) \nnothing \nsearch \nedu \nlowercase \nuppercase \nprank \nreplace \nmodified \nfun machine \ndictionary \nchat (conversation, talk) \nleader \nPress O \ncrash   \nPress Q (ce)");
+         alert("Commands to use (you can use these in sentences) \nnothing \nsearch \nedit \nedu \nreplace all \nlowercase \nuppercase \nprank \nreplace \nmodified \nfun machine \ndictionary \nchat (conversation, talk) \nleader \ncrash");
          break;
        case (a.indexOf("search") != -1):
 			  javascript: var a = prompt("What do you want to search for?");
@@ -111,7 +121,7 @@ document.onkeypress = function(e) {
        case (a.indexOf("fun machine") != -1):
 		 javascript: alert("Press Shift+I");
 		 fun = true;
-		 console.log("FUN MACHINE Activated");
+		 console.log("Sub Aurora: FUN MACHINE Activated");
 		 break;
        case (a.indexOf("crash") != -1):
          javascript: 
@@ -151,13 +161,13 @@ document.onkeypress = function(e) {
      }
   } 
   
-  if (e.keyCode == 79) {
+  if (e.keyCode == 79 && edit == true) {
     alert("You now have the power to edit this website.");
     alert("Use it wisely.");
     javascript: document.body.contentEditable = 'true'; document.designMode='on'; void 0.
   }
   
-  if (e.keyCode == 81) {
+  if (e.keyCode == 81 && replace == true) {
 	  var b = prompt("Replace the entire thing with one phrase. Header, Paragraph, or Whole? (h, p, w)");
 	  switch (b) {
 		  case "h":
