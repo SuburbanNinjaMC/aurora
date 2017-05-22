@@ -50,7 +50,7 @@ document.onkeypress = function(e) {
          break;
 	   case (a.indexOf("lowercase") != -1 || a.indexOf("lower") != -1):
 			 javascript:
-			 alert("Changing all letters to lowercase...");
+			 alert("Changing all letters to lowercase....");
 			 document.body.innerHTML = document.body.innerHTML.toLowerCase();
 			 break;
 	   case (a.indexOf("uppercase") != -1 || a.indexOf("up") != -1):
