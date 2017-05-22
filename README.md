@@ -2,7 +2,7 @@
 
 > ### Welcome.
 >> Sub Aurora. The right way to do things.
->>> Sub Aurora 0.20 "Hercules"
+>>> Sub Aurora 0.21 "Hercules"
 
 | Key Combination | Description |
 | --------------- | ----------- |
@@ -12,7 +12,7 @@
 | Shift+Q         | Replace all words on a page |
 | Shift+P         | Access EDU edition (Cannot do unless activated)|
 
-How to activate
+##How to Activate
 
 Edu: Type in edu in the prompt.
 Editing: Type in edit in the prompt.
