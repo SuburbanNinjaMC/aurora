@@ -3,7 +3,7 @@ javascript:
 alert("Welcome to Sub Aurora 0.21 'Hercules'");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.21 'Hercules' Installed on your page. Thank you for choosing us.");
-var edu, fun, edit, replace;
+var edu, fun, edit;
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
@@ -61,6 +61,11 @@ document.onkeypress = function(e) {
 		   var aa = new RegExp(a, "g");
 		   var b = prompt("What would do you want to replace it with?");
 		   document.body.innerHTML = document.body.innerHTML.replace(aa, b);
+		   if (replace = false) {
+		  	 replace = true;
+		  	 console.log("Sub Aurora: Replace All Feature Activated.");
+		   	 alert("You can now replace all words on a website using Shift + Q.");
+		   } 
 		   break;
 	     case (a.indexOf("replace all") != -1):
 		     alert("Shift + Q");
