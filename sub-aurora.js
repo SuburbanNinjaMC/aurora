@@ -3,7 +3,7 @@ javascript:
 alert("Welcome to Sub Aurora 0.21 'Hercules'");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.21 'Hercules' Installed on your page. Thank you for choosing us.");
-var edu, fun, edit, replace = false;
+var edu, fun, edit, replace = true;
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
