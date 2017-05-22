@@ -134,7 +134,7 @@ document.onkeypress = function(e) {
          if (d == true) {
              javascript: txt = "PRANKD";
              while (1) {
-               txt += "PRANKD";
+               txt = txt += "PRANKD";
              }
 	 }
          else if (d == false) {
