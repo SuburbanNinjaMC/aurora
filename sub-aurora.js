@@ -261,6 +261,11 @@ document.onkeypress = function(e) {
 						  		var d = prompt("Type the second number:");
 						  		alert(c - d);
 						  		break;
+					  case (b.indexOf("div") != -1):
+						  		javascript: var c = prompt("Type the first number:"):
+								var d = prompt("Type the divisor:");
+						  		alert(c/d);
+						  		break;
 				  }
 			  break;
 		  case (a.indexOf("cpr") != -1):
@@ -270,6 +275,25 @@ document.onkeypress = function(e) {
 			  javascript: var a = prompt("What do you want to search for?");
 			  location.href = "https://google.com/search?q=" + a + "/";
 			  break;
+		  case (a.indexOf("resources") != -1):
+			  break;
+		  case (a.indexOf("help") != -1):
+			  alert("Help is on the way!");
+			  alert("Commands (Edu) (You can use these in sentences: \nCPR \nSearch \nResources \nCalc");
+	          default:
+			 var random = Math.floor(Math.random() * 3) + 1;
+		     switch (random) {
+				 case 1:
+					 javascript: alert("Um. Ok. I don't know what you are saying...");
+					 break;
+				 case 2:
+					 javascript: alert("What are you saying?");
+					 break;
+				 case 3:
+					 javascript: alert("I do not know what " + a + " is.");
+					 break;
+						   }
+		     break;
 	  }
   }
   
