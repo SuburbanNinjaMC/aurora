@@ -7,6 +7,7 @@ var edu, fun, edit, replace = true;
 var redu = false, rfun = false;
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
+     if (redu == false && rfun == false) {
      var b = prompt("Now what may I do for you?");
      var a = b.toLowerCase();
      switch (true) {
@@ -164,6 +165,7 @@ document.onkeypress = function(e) {
 					 break;
 						   }
 		     break;
+		 }
      }
   } 
   
