@@ -3,12 +3,11 @@ javascript:
 alert("Welcome to Sub Aurora 0.20 'Hercules'");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.20 'Hercules' Installed on your page. Thank you for choosing us.");
+var edu, debug, fun;
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
      var a = b.toLowerCase();
-     var funmachine = false;
-     var edu = false;
      switch (true) {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
@@ -26,8 +25,9 @@ document.onkeypress = function(e) {
          	break;
        case (a.indexOf("edu") != -1):
 		     alert("Shift + P");
+		     edu = true;
+		     console.log("EDU Activated");
 		     break;
-	
 	   case (a.indexOf("prank") != -1):
 		     var a = prompt("Type in the number. Any number.");
 		     for (i = 0; i < a; i++) {
@@ -105,13 +105,13 @@ document.onkeypress = function(e) {
          alert("Dialing him now.");
          window.open("http://marsubia.x10.mx/");
          break;
-	     case (a.indexOf("edu") != -1):
-		     break;
        case (a.indexOf("secret") != -1):
          javascript: alert("No.");
          break;
        case (a.indexOf("fun machine") != -1):
 		 javascript: alert("Press Shift+I");
+		 fun = true;
+		 console.log("FUN MACHINE Activated");
 		 break;
        case (a.indexOf("crash") != -1):
          javascript: 
@@ -226,7 +226,7 @@ document.onkeypress = function(e) {
     }
   }
 	
-  if (e.keyCode == 80 && edu = true) {
+  if (e.keyCode == 80 && edu == true) {
 	  alert("I am Matimas, your EDU Aurora counterpart.");
 	  var b = prompt("Now what may I do for you?");
 	  var a = b.toLowerCase();
@@ -258,7 +258,7 @@ document.onkeypress = function(e) {
 	  }
   }
   
-  if (e.keyCode == 73) {
+  if (e.keyCode == 73 && fun == true) {
 	alert("Aurora: Oh come on! You had to activate him.");
 	alert("Fun: Really, great Unc? C'mon!");
 	alert("Aurora: You are not ready. Just let me take care of him.");
@@ -305,7 +305,7 @@ document.onkeypress = function(e) {
      			 }
       		break;
   	
-		 }
+		 }}
   
 }
 }());
