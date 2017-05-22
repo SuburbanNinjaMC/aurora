@@ -262,7 +262,7 @@ document.onkeypress = function(e) {
 						  		alert(c - d);
 						  		break;
 					  case (b.indexOf("div") != -1):
-						  		javascript: var c = prompt("Type the first number:"):
+						  		javascript: var c = prompt("Type the first number:");
 								var d = prompt("Type the divisor:");
 						  		alert(c/d);
 						  		break;
