@@ -12,7 +12,7 @@
 | Shift+Q         | Replace all words on a page |
 | Shift+P         | Access EDU edition (Cannot do unless activated)|
 
-##How to Activate
+## How to Activate
 
 Edu: Type in edu in the prompt.
 Editing: Type in edit in the prompt.
