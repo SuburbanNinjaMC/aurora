@@ -98,7 +98,7 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("search") != -1):
 			  javascript: var a = prompt("What do you want to search for?");
-			  location.href = "https://google.com/search?q=" + a + "/");
+			  location.href = "https://google.com/search?q=" + a + "/";
 			  break;
        case (a.indexOf("leader") != -1):
          javascript: 
@@ -253,7 +253,7 @@ document.onkeypress = function(e) {
 			  break;
 		  case (a.indexOf("search") != -1):
 			  javascript: var a = prompt("What do you want to search for?");
-			  location.href = "https://google.com/search?q=" + a + "/");
+			  location.href = "https://google.com/search?q=" + a + "/";
 			  break;
 	  }
   }
