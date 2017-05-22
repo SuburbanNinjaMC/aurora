@@ -1,4 +1,4 @@
-# Sub Aurora
+# .sub-aurora
 
 > ### Welcome.
 >> Sub Aurora. The right way to do things.
