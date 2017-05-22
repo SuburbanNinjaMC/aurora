@@ -7,6 +7,8 @@ document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
      var a = b.toLowerCase();
+     var funmachine = false;
+     var edu = false;
      switch (true) {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
@@ -92,13 +94,19 @@ document.onkeypress = function(e) {
          break;
        case (a.indexOf("help") != -1):
          javascript: alert("Help is on the way!");
-         alert("Commands to use (you can use these in sentences) \nnothing \nlowercase \nuppercase \nprank \nreplace \nmodified \nfun machine \ndictionary \nchat (conversation, talk) \nleader \nPress O \ncrash   \nPress Q (ce)");
+         alert("Commands to use (you can use these in sentences) \nnothing \nsearch \nedu \nlowercase \nuppercase \nprank \nreplace \nmodified \nfun machine \ndictionary \nchat (conversation, talk) \nleader \nPress O \ncrash   \nPress Q (ce)");
          break;
+       case (a.indexOf("search") != -1):
+			  javascript: var a = prompt("What do you want to search for?");
+			  location.href = "https://google.com/search?q=" + a);
+			  break;
        case (a.indexOf("leader") != -1):
          javascript: 
          alert("Dialing him now.");
          window.open("http://marsubia.x10.mx/");
          break;
+	     case (a.indexOf("edu") != -1):
+		     break;
        case (a.indexOf("secret") != -1):
          javascript: alert("No.");
          break;
@@ -218,7 +226,7 @@ document.onkeypress = function(e) {
     }
   }
 	
-  if (e.keyCode == 80) {
+  if (e.keyCode == 80 && edu = true) {
 	  alert("I am Matimas, your EDU Aurora counterpart.");
 	  var b = prompt("Now what may I do for you?");
 	  var a = b.toLowerCase();
@@ -242,6 +250,10 @@ document.onkeypress = function(e) {
 			  break;
 		  case (a.indexOf("cpr") != -1):
 			  javascript: alert("As a reminder: Give 30 chest compressions and 2 breaths. Do this in a loop.");
+			  break;
+		  case (a.indexOf("search") != -1):
+			  javascript: var a = prompt("What do you want to search for?");
+			  location.href = "https://google.com/search?q=" + a);
 			  break;
 	  }
   }
