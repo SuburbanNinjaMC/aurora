@@ -4,6 +4,7 @@ alert("Welcome to Sub Aurora 0.21 'Hercules'");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.21 'Hercules' Installed on your page. Thank you for choosing us.");
 var edu, fun, edit, replace = true;
+var redu = false, rfun = false;
 document.onkeypress = function(e) {
   if (e.keyCode == 74) {
      var b = prompt("Now what may I do for you?");
@@ -24,10 +25,10 @@ document.onkeypress = function(e) {
 	 		javascript:alert('Last edited\n'+document.lastModified);
          	break;
        case (a.indexOf("edu") != -1):
-		     alert("Shift + P");
-		     edu = true;
-		     console.log("Sub Aurora: EDU Activated");
-		     break;
+				 alert("Shift + P");
+				 edu = true;
+				 console.log("Sub Aurora: EDU Activated");
+				 break;
 	     case (a.indexOf("edit") != -1):
 		     alert("Shift + O");
 		     edit = true;
