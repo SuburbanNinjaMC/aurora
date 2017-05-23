@@ -264,6 +264,7 @@ function subAuroraFun() {
 	case "revert":
 			alert("Reverted back to Sub Aurora.");
 			rfun = false;
+			break;
     	case "yes":
       		javascript: 
       		alert("Yay! You have a good spirit.");
