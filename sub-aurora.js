@@ -1,5 +1,12 @@
 javascript:
 (function() {
+var script = document.createElement("SCRIPT");
+script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
+script.type = 'text/javascript';
+script.onload = function() {
+var $ = window.jQuery;
+};
+document.getElementsByTagName("head")[0].appendChild(script);
 alert("Welcome to Sub Aurora 0.25 'Corvus'");
 alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.25 'Corvus' Installed on your page. Thank you for choosing us.");
