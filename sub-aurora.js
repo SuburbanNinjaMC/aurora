@@ -39,7 +39,7 @@ function subAuroraRegular() {
 	     case (a.indexOf("edit") != -1):
 		     alert("Shift + O");
 		     edit = true;
-		     console.log("Sub Aurora: editing Activated.");
+		     console.log("Sub Aurora: Editing Activated.");
 		     break;
        case (a.indexOf("prank") != -1):
 		     var a = prompt("Type in the number. Any number.");
@@ -147,7 +147,7 @@ function subAuroraRegular() {
 				 break;
 		     } else if (d == true) {
 			     	 alert("It is replaced.");
-			         redu = true;
+			         rfun = true;
 			    	 console.log("Sub Aurora: EDU Activated");
 			         alert("Aurora: Oh come on! You had to activate him.");
 				 alert("Fun: Really, great Unc? C'mon!");
