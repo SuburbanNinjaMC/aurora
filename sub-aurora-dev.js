@@ -1,8 +1,8 @@
 javascript:
 (function() {
-alert("Welcome to Sub Aurora 0.21 'Hercules'");
+alert("Welcome to Sub Aurora 0.25 'Corvus'");
 alert("Press 'J (uppercase)' to begin.");
-console.log("Sub Aurora 0.21 'Hercules' Installed on your page. Thank you for choosing us.");
+console.log("Sub Aurora 0.25 'Corvus' Installed on your page. Thank you for choosing us.");
 var edu, fun, edit, replace = true;
 var redu = false, rfun = false;
 function subAuroraRegular() {
@@ -24,10 +24,18 @@ function subAuroraRegular() {
 	 		javascript:alert('Last edited\n'+document.lastModified);
          	break;
        case (a.indexOf("edu") != -1):
+		     var d = confirm("Do you want to replace Sub Aurora with EDU Aurora?");
+		     if (d == false) {
 				 alert("Shift + P");
 				 edu = true;
 				 console.log("Sub Aurora: EDU Activated");
 				 break;
+		     } else if (d == true) {
+			     	 alert("It is replaced.");
+			         redu = true;
+			    	 console.log("Sub Aurora: EDU Activated");
+			      	 break;
+		     }
 	     case (a.indexOf("edit") != -1):
 		     alert("Shift + O");
 		     edit = true;
@@ -123,11 +131,35 @@ function subAuroraRegular() {
        case (a.indexOf("secret") != -1):
          javascript: alert("No.");
          break;
-       case (a.indexOf("fun machine") != -1):
-		 javascript: alert("Press Shift+I");
-		 fun = true;
-		 console.log("Sub Aurora: FUN MACHINE Activated");
-		 break;
+       case (a.indexOf("fun") != -1):
+		 var d = confirm("Do you want to replace Sub Aurora with Fun Machine?");
+		 if (d == false) {
+				 javascript: alert("Press Shift+I");
+				 fun = true;
+		 		console.log("Sub Aurora: FUN MACHINE Activated");
+			 	alert("Aurora: Oh come on! You had to activate him.");
+				alert("Fun: Really, great Unc? C'mon!");
+				alert("Aurora: You are not ready. Just let me take care of him.");
+				alert("Fun: But great Unc...");
+				alert("Aurora: Enough said! Just please.");
+				alert("Fun: NO! I got here fair and square!");
+				alert("Aurora: Fine. I give up. Sorry, master.");
+				 break;
+		     } else if (d == true) {
+			     	 alert("It is replaced.");
+			         redu = true;
+			    	 console.log("Sub Aurora: EDU Activated");
+			         alert("Aurora: Oh come on! You had to activate him.");
+				 alert("Fun: Really, great Unc? C'mon!");
+				 alert("Aurora: You are not ready. Just let me take care of him.");
+				 alert("Fun: But great Unc...");
+				 alert("Aurora: Enough said! Just please.");
+				 alert("Fun: NO! I got here fair and square!");
+				 alert("Aurora: Fine. I give up. Sorry, master.");
+			     	 alert("Aurora: If you want me back, simply type in 'revert' in his prompt.");
+			      	 break;
+		     }
+		
        case (a.indexOf("crash") != -1):
          javascript: 
          var d = confirm("Are you sure?");
@@ -202,9 +234,13 @@ function subAuroraEDU() {
 			  break;
 		  case (a.indexOf("resources") != -1):
 			  break;
+		  case (a.indexOf("revert") != -1):
+			  alert("Reverted back to Sub Aurora.");
+			  redu = false;
+			  break;
 		  case (a.indexOf("help") != -1):
 			  alert("Help is on the way!");
-			  alert("Commands (Edu) (You can use these in sentences: \nCPR \nSearch \nResources \nCalc");
+			  alert("Commands (Edu) (You can use these in sentences: \nCPR \nSearch \nResources \nCalc \nRevert");
 	          default:
 			 var random = Math.floor(Math.random() * 3) + 1;
 		     switch (random) {
@@ -222,15 +258,12 @@ function subAuroraEDU() {
 	  }
 }
 function subAuroraFun() {
-	alert("Aurora: Oh come on! You had to activate him.");
-	alert("Fun: Really, great Unc? C'mon!");
-	alert("Aurora: You are not ready. Just let me take care of him.");
-	alert("Fun: But great Unc...");
-	alert("Aurora: Enough said! Just please.");
-	alert("Fun: NO! I got here fair and square!");
-	alert("Aurora: Fine. I give up. Sorry, master.");
+	
   	var x = prompt("Fun: So you want to have some fun?");
   	switch (x) {
+	case "revert":
+			alert("Reverted back to Sub Aurora.");
+			rfun = false;
     	case "yes":
       		javascript: 
       		alert("Yay! You have a good spirit.");
@@ -262,8 +295,11 @@ function subAuroraFun() {
           			javascript:alert('Then why are you here?');
           			break; 
         		case "help": 
-          			javascript:alert("Commands: \nBecause I am \nI don't know"); 
+          			javascript:alert("Commands: \nBecause I am \nI don't know \nrevert"); 
           			break; 
+			case "revert":
+				alert("Reverted back to Sub Aurora.");
+				rfun = false;
 		
      			 }
       		break;
