@@ -239,10 +239,12 @@ function subAuroraEDU() {
 			  break;
 		  case (a.indexOf("revert") != -1):
 			  alert("Reverted back to Sub Aurora.");
+			  console.log("Sub Aurora: EDU Deactivated.");
 			  redu = false;
 			  break;
 		  case (a.indexOf("disable") != -1):
 			  edu = false;
+			  console.log("Sub Aurora: EDU Deactivated.");
 			  break;
 		  case (a.indexOf("help") != -1):
 			  alert("Help is on the way!");
@@ -268,10 +270,12 @@ function subAuroraFun() {
   	switch (x) {
 	case "revert":
 			alert("Reverted back to Sub Aurora.");
+			console.log("Sub Aurora: FUN Machine Deactivated.");
 			rfun = false;
 			break;
 	case "disable":
 			fun = false;
+			console.log("Sub Aurora: FUN Machine Deactivated.");
 			break;
     	case "yes":
       		javascript: 
