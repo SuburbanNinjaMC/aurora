@@ -13,13 +13,13 @@ console.log("Sub Aurora 0.25 'Corvus' Installed on your page. Thank you for choo
 var edu, fun, edit, replace = true;
 var redu = false, rfun = false;
 function subAuroraRegular() {
-     var b = prompt("Now what may I do for you?");
+     var b = prompt("Aurora: Now what may I do for you?");
      var a = b.toLowerCase();
      switch (true) {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
          break;
-	   case (a.indexOf("cookies") != -1):
+	case (a.indexOf("cookies") != -1):
 		     var c=document.cookie.split(";");
     			for(var i=0;i<c.length;i++){
         			var e=c[i].indexOf("=");
@@ -58,9 +58,9 @@ function subAuroraRegular() {
 			     alert("2142 2142 1738 1337 SMOK WEED.");
 		     }
 		     break;
-       case (a.indexOf("dictionary") != -1):
-         javascript: window.open("http://dictionary.com");
-         break;
+	   case (a.indexOf("dictionary") != -1):
+         	javascript: window.open("http://dictionary.com");
+         	break;
 	   case (a.indexOf("lowercase") != -1 || a.indexOf("lower") != -1):
 			 javascript:
 			 alert("Changing all letters to lowercase....");
@@ -241,9 +241,12 @@ function subAuroraEDU() {
 			  alert("Reverted back to Sub Aurora.");
 			  redu = false;
 			  break;
+		  case (a.indexOf("disable") != -1):
+			  edu = false;
+			  break;
 		  case (a.indexOf("help") != -1):
 			  alert("Help is on the way!");
-			  alert("Commands (Edu) (You can use these in sentences: \nCPR \nSearch \nResources \nCalc \nRevert");
+			  alert("Commands (Edu) (You can use these in sentences: \nCPR \nSearch \nResources \nCalc \nDisable \nRevert");
 	          default:
 			 var random = Math.floor(Math.random() * 3) + 1;
 		     switch (random) {
@@ -261,11 +264,14 @@ function subAuroraEDU() {
 	  }
 }
 function subAuroraFun() {
-  	var x = prompt("Fun: So you want to have some fun?");
+  	var x = prompt("Fun: So you want to have some fun? (type disable to disable)");
   	switch (x) {
 	case "revert":
 			alert("Reverted back to Sub Aurora.");
 			rfun = false;
+			break;
+	case "disable":
+			fun = false;
 			break;
     	case "yes":
       		javascript: 
