@@ -76,11 +76,7 @@ function subAuroraRegular() {
 		   var aa = new RegExp(a, "g");
 		   var b = prompt("What would do you want to replace it with?");
 		   document.body.innerHTML = document.body.innerHTML.replace(aa, b);
-		   if (replace = false) {
-		  	 replace = true;
-		  	 console.log("Sub Aurora: Replace All Feature Activated.");
-		   	 alert("You can now replace all words on a website using Shift + Q.");
-		   } 
+		   
 		   break;
 	     case (a.indexOf("replace all") != -1):
 		     alert("Shift + Q");
@@ -265,7 +261,6 @@ function subAuroraEDU() {
 	  }
 }
 function subAuroraFun() {
-	
   	var x = prompt("Fun: So you want to have some fun?");
   	switch (x) {
 	case "revert":
