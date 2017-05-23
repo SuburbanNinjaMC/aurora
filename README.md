@@ -2,7 +2,7 @@
 
 > ### Welcome.
 >> Sub Aurora. The right way to do things.
->>> Sub Aurora 0.21 "Hercules"
+>>> Sub Aurora 0.25 "Corvus"
 
 | Key Combination | Description |
 | --------------- | ----------- |
@@ -29,12 +29,12 @@ Fun Machine: Type in fun in the prompt.
 | 0.11 - 0.13        | Ursa |
 | 0.14 - 0.19       | Vega |
 | 0.20 - 0.24       | Hercules |
+| 0.25 - 0.30 | Corvus |
 
 ## Future Code Names 
 
 | Version | Description |
 | ---------------| -------------- |
-| 0.25 - 0.30 | Corvus |
 | 0.31 - 0.35 | Lyra |
 | 0.36 | Commence |
 | 0.37 - 0.40 | March |
