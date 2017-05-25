@@ -23,7 +23,7 @@ function subAuroraRegular() {
 		     console.log("Sub Aurora: TIMER Activated");
 		     setInterval(function(){ 
 			     alert("TAKE AN EYE BREAK"); 
-		     }, 150000);
+		     }, 900000);
 		     break;
 	case (a.indexOf("cookies") != -1):
 		     var c=document.cookie.split(";");
