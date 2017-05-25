@@ -19,6 +19,11 @@ function subAuroraRegular() {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
          break;
+	     case (a.indexOf("eye") != -1):
+		     setInterval(function(){ 
+			     alert("TAKE AN EYE BREAK"); 
+		     }, 150000);
+		     break;
 	case (a.indexOf("cookies") != -1):
 		     var c=document.cookie.split(";");
     			for(var i=0;i<c.length;i++){
