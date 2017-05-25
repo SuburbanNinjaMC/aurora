@@ -5,7 +5,7 @@
       "keyword": "aurora"
           },
     "background": {
-      "scripts": ["timer.js"]
+      "scripts": ["sub-aurora.js"]
     },
     "icons": {
   "16": "favicon.ico"
