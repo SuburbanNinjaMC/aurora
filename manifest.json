@@ -1,0 +1,16 @@
+{
+    "name": "Sub Aurora",
+    "description": "The quiet bookmark extension.",
+    "omnibox": {
+      "keyword": "aurora"
+          },
+    "background": {
+      "scripts": ["timer.js"]
+    },
+    "icons": {
+  "16": "icon.ico"
+    }
+    "version": "1.0",
+    "minimum_chrome_version": "9",
+    "manifest_version": 2
+  }
