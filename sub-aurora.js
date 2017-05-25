@@ -19,7 +19,8 @@ function subAuroraRegular() {
        case (a.indexOf("nothing") != -1):
          javascript: alert("Ok. Thank you for your assistance.");
          break;
-	     case (a.indexOf("eye") != -1):
+	     case (a.indexOf("eye") != -1 || a.indexOf("break") != -1):
+		     console.log("Sub Aurora: TIMER Activated");
 		     setInterval(function(){ 
 			     alert("TAKE AN EYE BREAK"); 
 		     }, 150000);
