@@ -12,6 +12,7 @@ alert("Press 'J (uppercase)' to begin.");
 console.log("Sub Aurora 0.25 'Corvus' Installed on your page. Thank you for choosing us.");
 var edu, fun, edit, replace = true;
 var redu = false, rfun = false;
+function subAurora() {
 function subAuroraRegular() {
      var b = prompt("Aurora: Now what may I do for you?");
      var a = b.toLowerCase();
@@ -420,6 +421,8 @@ document.onkeypress = function(e) {
   }
   
 }
+}
+	subAurora();
 }());
 
 
